@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>signup</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>LOGO</h1>
+            <ul>
+                <li onclick="location.href = 'login.html'">Menu</li>
+                <li onclick="location.href = 'index.html'">Home</li>
+                <li onclick="location.href = 'login.html'">Login</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="signupCont">
+        <form id="signupForm">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email">
+            <label for=""></label>
+            <input type="password" name="password" id="password" placeholder="password">
+            <label for=""></label>
+            <input type="password" name="re-password" id="rePassword" placeholder="re-password">
+            <button onclick="signup(event)">Signup</button>
+        </form>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>

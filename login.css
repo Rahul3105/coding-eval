@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border: 1px solid black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  font-size: 2.2rem;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  font-size: 1.8rem;
+}
+nav > ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+.loginCont {
+  width: 30%;
+  height: 10rem;
+  margin: auto;
+  margin-top: 10%;
+}
+.loginCont input,
+.loginCont button {
+  display: block;
+  margin-bottom: 2rem;
+}

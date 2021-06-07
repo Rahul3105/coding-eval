@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+header {
+  border: 1px solid black;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  font-size: 2.2rem;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  font-size: 1.8rem;
+}
+nav > ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+.signupCont {
+  width: 30%;
+  height: 30rem;
+  margin: auto;
+  margin-top: 10%;
+}
+.signupCont input,
+.signupCont button {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.signupCont label {
+  font-size: 1.8rem;
+}
